@@ -12,6 +12,7 @@
 		0547DC73213540DD00C12FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547DC71213540DD00C12FF0 /* Main.storyboard */; };
 		0547DC75213540DF00C12FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0547DC74213540DF00C12FF0 /* Assets.xcassets */; };
 		0547DC78213540DF00C12FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547DC76213540DF00C12FF0 /* LaunchScreen.storyboard */; };
+		0547DC80213543D000C12FF0 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547DC7F213543D000C12FF0 /* AnswerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0547DC74213540DF00C12FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0547DC77213540DF00C12FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0547DC79213540DF00C12FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0547DC7F213543D000C12FF0 /* AnswerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0547DC74213540DF00C12FF0 /* Assets.xcassets */,
 				0547DC76213540DF00C12FF0 /* LaunchScreen.storyboard */,
 				0547DC79213540DF00C12FF0 /* Info.plist */,
+				0547DC7F213543D000C12FF0 /* AnswerButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				0547DC70213540DD00C12FF0 /* ViewController.swift in Sources */,
 				0547DC6E213540DD00C12FF0 /* AppDelegate.swift in Sources */,
+				0547DC80213543D000C12FF0 /* AnswerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaoncloud.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaoncloud.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
